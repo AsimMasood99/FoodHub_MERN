@@ -34,3 +34,5 @@ app.use("/api/data", dataRouter);
 
 import orderRouter from "./routes/order.routes.js";
 app.use("/api/orders/", orderRouter);
+
+export default app
