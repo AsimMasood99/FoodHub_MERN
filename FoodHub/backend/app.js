@@ -7,8 +7,8 @@ const port = 3000;
 const databaseConnectionString =
 	"mongodb+srv://asimmasood707:plantsVsZombies@foodhub.tczkixo.mongodb.net/FoodHub";
 
-app.listen(process.env.PORT, () => {
-	console.log(`Listning to port ${process.env.port}`);
+app.listen(port, () => {
+	console.log(`Listning to port ${port}`);
 });
 
 app.get("/", async(req,res)=>{
